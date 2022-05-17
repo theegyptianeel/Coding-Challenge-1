@@ -6,22 +6,36 @@
 #  after each test case is just to print a new line and show you three versions of different lists and to show you how the code will work, if those two
 #  print("\n") statements were not there, it would just print all three lists in one line
 
-  
+
+# Creates a list
 first_list = [8,3,5,1]
 
+# loops through each number in the list and prints it out
 for number in first_list:
     print(number, end='')
 
+
+
 print("\n")
 
+
+
+# Creates second list
 second_list = [30032004,17052022,95]
 
+# loops through each number in the list and prints it out
 for number in second_list:
     print(number, end='')
 
+
+
 print("\n")
 
+
+
+# Creates third list
 third_list = [44,22,107,62]
 
+# loops through each number in the list and prints it out
 for number in third_list:
     print(number, end='')
