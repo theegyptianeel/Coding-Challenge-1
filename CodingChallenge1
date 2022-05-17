@@ -1,0 +1,27 @@
+# The aim is to produce code that will print the numbers in a list of any given length on a single line (not print the numbers on a line each)
+# Python by default outputs the result of every "print()" on a new line, that is because there is a "new line character (\n)" built into python that is
+#  attached to the end of your sequence of characters or integers. By adding in the parameter "end='' ", tells python what it should add to the end of
+#  whatever is in  your "print()" function. So in our case, I've added no spaces in between the single brackets to indicate to python that it should
+#  just add nothing after the first iteration of printing the number. Hence why it prints the numbers all in a single line. The reason I added a print("\n")
+#  after each test case is just to print a new line and show you three versions of different lists and to show you how the code will work, if those two
+#  print("\n") statements were not there, it would just print all three lists in one line
+
+  
+first_list = [8,3,5,1]
+
+for number in first_list:
+    print(number, end='')
+
+print("\n")
+
+second_list = [30032004,17052022,95]
+
+for number in second_list:
+    print(number, end='')
+
+print("\n")
+
+third_list = [44,22,107,62]
+
+for number in third_list:
+    print(number, end='')
